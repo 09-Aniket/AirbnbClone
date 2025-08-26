@@ -1,0 +1,116 @@
+body {
+  background-color: azure;
+  font-family: "Plus Jakarta Sans", sans-serif !important;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.container {
+  flex: 1;
+}
+/* NavBar */
+.navbar {
+  height: 4rem;
+  margin-bottom: 0.5rem;
+  background-color: #ebebeb;
+}
+
+.fa-airbnb {
+  color: #fe424d;
+  font-size: 2.5rem;
+}
+
+.nav-link {
+  color: #222222 !important;
+}
+
+/* footer */
+
+.fa-info-links a {
+  text-decoration: none;
+}
+.fa-info-links a:hover {
+  text-decoration: underline;
+}
+.fa-info-links,
+.fa-social,
+.fa-info-brand {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fa-social i {
+  margin-right: 1rem;
+  font-weight: 2rem;
+}
+
+.fa-info {
+  background-color: #ebebeb;
+  text-align: center;
+  height: 8rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: space-evenly;
+}
+
+/* cards */
+.card-listing {
+  border: none !important;
+  margin-bottom: 2rem !important;
+}
+
+.card-img-top {
+  border-radius: 1rem;
+  width: 100% !important;
+  object-fit: cover !important;
+}
+
+.card-body {
+  padding: 0 !important;
+}
+.card-text p {
+  font-size: 400 !important;
+}
+
+/* card-img-overlay  card _Effect*/
+.card-img-overlay {
+  opacity: 0;
+}
+.card-img-overlay:hover {
+  opacity: 0.5;
+  background-color: white;
+}
+.anchor-tag-img {
+  text-decoration: none;
+}
+
+.add-btn {
+  border: none !important;
+  background-color: #fe424d !important;
+}
+
+/* Image */
+.show-img {
+  height: 30vh !important;
+}
+
+/* BTNs */
+.btns {
+  display: flex;
+}
+
+/* Show card */
+.show-card {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+/* map */
+#map {
+  height: 400px;
+  width: 75vh;
+}
